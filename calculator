@@ -1,0 +1,24 @@
+#include<stdio.h>
+
+int num1;
+int num2;
+
+int main(){
+printf("Enter a number");
+scanf("%d", &num1);
+
+printf("Enter an another number");
+scanf("%d", &num2);
+
+int total=num1+num2;
+int sub= num1-num2;
+int multi=num1*num2;
+int division=num2/num1;
+int mod=num2%num1; 
+
+printf("Summation: %d\n",total);
+printf("Subtraction: %d\n",sub);
+printf("Multiplication: %d\n",multi);
+printf("Division: %d\n",division);
+printf("Modulation: %d\n",mod);
+}
